@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #17212b; background: #f4f7f9; }
+.container { width: min(1100px, calc(100% - 40px)); margin: 0 auto; }
+.site-header { background: #123b56; color: white; padding: 18px 0; box-shadow: 0 2px 8px #0002; }
+.site-header .container { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.brand { font-weight: 700; font-size: 1.2rem; }.site-header nav { display: flex; gap: 20px; flex-wrap: wrap; }
+nav a { color: white; text-decoration: none; font-size: .95rem; }nav a:hover { text-decoration: underline; }
+main { min-height: calc(100vh - 132px); padding: 70px 0; }.hero { background: linear-gradient(135deg, #123b56, #1f7191); color: white; border-radius: 18px; padding: 70px 60px; box-shadow: 0 14px 35px #123b5630; }
+.eyebrow { text-transform: uppercase; letter-spacing: 1.5px; font-size: .75rem; font-weight: 700; color: #2b8ca7; }.hero .eyebrow { color: #b6e7ef; }
+h1 { margin: 8px 0 18px; font-size: clamp(2rem, 5vw, 3.5rem); }.lead { max-width: 650px; font-size: 1.15rem; line-height: 1.7; color: #e7f3f6; }
+.actions { display: flex; gap: 12px; margin-top: 30px; flex-wrap: wrap; }.button { display: inline-block; padding: 12px 18px; border-radius: 8px; background: #f0bd56; color: #17212b; text-decoration: none; font-weight: 700; }.button.secondary { background: #ffffff20; color: white; border: 1px solid #ffffff70; }
+.card { background: white; border-radius: 14px; padding: 38px; box-shadow: 0 8px 25px #17334b14; }.card h1 { font-size: 2.2rem; }.card p:not(.eyebrow) { line-height: 1.7; color: #53616c; }.warning { border-left: 6px solid #d69e2e; }
+.table-wrap { overflow-x: auto; margin-top: 25px; }table { width: 100%; border-collapse: collapse; min-width: 560px; }th, td { padding: 15px 16px; text-align: left; border-bottom: 1px solid #dce5ea; }th { background: #e8f2f5; color: #123b56; }tr:hover td { background: #f8fbfc; }
+footer { padding: 22px 0; background: #102d40; color: #c8d8df; font-size: .9rem; }@media (max-width: 650px) { .site-header .container { align-items: flex-start; flex-direction: column; }.hero { padding: 42px 26px; }.card { padding: 25px 18px; } }

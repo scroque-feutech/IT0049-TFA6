@@ -1,0 +1,2 @@
+INSERT INTO users (username, full_name) VALUES ('michael','Michael De Santa'),('franklin','Franklin Clinton'),('trevor','Trevor Philips'),('lamar','Lamar Davis'),('lester','Lester Crest');
+INSERT INTO customers (full_name, email, phone) VALUES ('Michael De Santa','michael@vangelico.example','09170000001'),('Franklin Clinton','franklin@vagos.example','09170000002'),('Trevor Philips','trevor@trevors.example','09170000003'),('Lamar Davis','lamar@h_customs.example','09170000004'),('Lester Crest','lester@bleeter.example','09170000005');
